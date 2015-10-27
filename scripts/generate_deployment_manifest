@@ -6,8 +6,6 @@ if [ -n "${CF_DEPLOYMENT_TRACE}" ]; then
   set -x
 fi
 
-set -u
-
 root_dir=$(cd "$(dirname "$0")/.." && pwd)
 
 templates="${root_dir}/templates"
